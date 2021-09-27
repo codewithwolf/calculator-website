@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+ 
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/back-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+ .table-row{
+     border: 2px solid silver;
+     border-radius: 9px;
+ }
+ tr .table{
+     height: 3rem;
+     width: 3rem;
+     margin: 3px 5px;
+     background-color: orange;
+     border: 1px solid orange;
+     border-radius: 7px;
+ }
+ #result{
+     height: 3rem;
+     width: 12rem;
+     border-radius: 13px;
+     border: 2px solid orange;
+ }
+ span{
+     font-size: 67px;
+ }
+ .text h1{
+     color: wheat;
+     font-size:3rem;
+     margin: 4rem;
+ }
+   .tes img{
+       width: 12px;
+       height: 12px;
+   }
